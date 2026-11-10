@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-gold: #B69A62;
+    --color-gold-light: #DFC79B;
+    --color-gold-dark: #8F7644;
+    --color-lavender: #C5B5D0;
+    --color-lavender-light: #EBE4F0;
+    --color-mauve: #E9E3EA;
+    --color-offwhite: #F8F6F2;
+    --color-graphite: #29252B;
+    --color-graphite-muted: #5B545F;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    font-family: 'Manrope', sans-serif;
+    color: #29252B;
+    background-color: #F8F6F2;
+  }
+
+  h1, h2, h3, .font-serif-title {
+    font-family: 'Cormorant Garamond', 'Playfair Display', serif;
+  }
+}
+
+/* Custom scrollbar for modern browsers */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #F8F6F2;
+}
+::-webkit-scrollbar-thumb {
+  background: #C5B5D0;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #B69A62;
+}
+
+/* Subtle editorial touch styling */
+.editorial-shadow {
+  box-shadow: 0 10px 30px -10px rgba(41, 37, 43, 0.06), 0 4px 6px -4px rgba(41, 37, 43, 0.03);
+}
+
+.gold-border {
+  border-color: rgba(182, 154, 98, 0.25);
+}
+
+.gold-gradient-text {
+  background: linear-gradient(135deg, #B69A62 0%, #D8BE88 50%, #9F834D 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+

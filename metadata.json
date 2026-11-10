@@ -1,0 +1,6 @@
+{
+  "name": "Maria Gabriela — Lash Designer",
+  "description": "Biosite premium e catálogo exclusivo de extensão de cílios, volumes personalizados e design de sobrancelhas por Maria Gabriela.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
